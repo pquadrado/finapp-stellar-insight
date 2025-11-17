@@ -3,49 +3,84 @@ import { Check, FileText } from "lucide-react";
 const PlansSlide = () => {
   const plans = [
     {
-      name: "Essencial",
-      idealFor: "Autônomos e MEIs que precisam de controle básico",
+      name: "Pacote Básico",
+      idealFor: "Para pessoas físicas e autônomos",
+      description: "Organização financeira essencial para quem precisa colocar o básico em ordem com segurança e simplicidade.",
       features: [
-        "Lançamentos financeiros (contas a pagar e receber)",
+        "Contas a pagar e receber",
         "Conciliação bancária simples",
-        "Controle de fluxo de caixa",
-        "Relatório mensal resumido"
+        "Organização digital de documentos",
+        "Conciliação bancária semanal",
+        "Atendimento humanizado via WhatsApp",
+        "Reunião mensal de resultados"
       ],
-      limit: "Até 50 notas fiscais/movimentações",
-      price: "R$ 900 a R$ 1.200"
+      price: "R$ 380,00 a R$ 600,00"
     },
     {
-      name: "Executivo",
-      idealFor: "Pequenas empresas com volume moderado de operações",
+      name: "Pacote Essencial",
+      idealFor: "Para autônomos e MEIs que precisam de estrutura financeira",
+      description: "Controle financeiro estruturado para quem precisa ter clareza, previsibilidade e apoio no dia a dia.",
       features: [
-        "Tudo do Essencial",
-        "Relatórios gerenciais e comparativo budget x realizado",
-        "Organização de centros de custo",
-        "Atendimento via WhatsApp comercial"
+        "Contas a pagar e receber",
+        "Conciliação bancária simples",
+        "Organização digital de documentos",
+        "Controle de fluxo de caixa",
+        "Relatório financeiro mensal (resumido)",
+        "Emissão de notas fiscais",
+        "Conciliação bancária semanal",
+        "Atendimento humanizado via WhatsApp",
+        "Reunião mensal de resultados"
       ],
-      limit: "Até 150 notas fiscais/movimentações",
-      price: "R$ 1.500 a R$ 2.000",
+      price: "R$ 580,00 a R$ 900,00"
+    },
+    {
+      name: "Pacote Executivo",
+      idealFor: "Para pequenas empresas com volume moderado",
+      description: "Gestão financeira completa, com análises gerenciais que ajudam na tomada de decisões e no crescimento da empresa.",
+      features: [
+        "Contas a pagar e receber",
+        "Conciliação bancária simples",
+        "Organização digital de documentos",
+        "Controle de fluxo de caixa",
+        "Relatório financeiro mensal (resumido)",
+        "Emissão de notas fiscais",
+        "Relatórios financeiros gerenciais",
+        "Indicadores comparativos e análises de desempenho",
+        "Conciliação bancária semanal",
+        "Atendimento humanizado via WhatsApp",
+        "Reunião mensal de resultados"
+      ],
+      price: "R$ 880,00 a R$ 1.500,00",
       highlight: true
     },
     {
-      name: "Premium",
-      idealFor: "Empresas em crescimento ou com múltiplos centros de custo",
+      name: "Pacote Premium",
+      idealFor: "Para empresas com múltiplos centros de custo ou em expansão",
+      description: "Gestão financeira estratégica, com análises aprofundadas, previsões e acompanhamento completo para tomar decisões com confiança.",
       features: [
-        "Tudo do Executivo",
-        "Dashboards em Excel/Power BI",
-        "Previsões de fluxo de caixa e análise estratégica",
+        "Contas a pagar e receber",
+        "Conciliação bancária simples",
+        "Organização digital de documentos",
+        "Controle de fluxo de caixa",
+        "Relatório financeiro mensal (resumido)",
+        "Emissão de notas fiscais",
+        "Relatórios financeiros gerenciais",
+        "Indicadores comparativos e análises de desempenho",
+        "Previsão estratégica de fluxo de caixa",
+        "Relatórios financeiros avançados",
+        "Análises personalizadas e insights estratégicos",
+        "Conciliação bancária semanal",
+        "Atendimento humanizado via WhatsApp",
         "Reunião mensal de resultados"
       ],
-      limit: "Até 300 notas fiscais/movimentações",
-      price: "R$ 2.500 a R$ 3.000"
+      price: "R$ 1.800,00 a R$ 2.500,00 (sob análise prévia)"
     }
   ];
 
   const notes = [
-    "Valores podem variar conforme volume de documentos, complexidade e integração de sistemas (ex: Conta Azul, Nibo etc.)",
-    "Movimentações adicionais (acima do limite mensal) podem ser cobradas à parte: R$ 3,00 por lançamento extra",
-    "Inclui acompanhamento remoto e reuniões online",
-    "Todos os relatórios e controles podem ser entregues em Excel ou Power BI",
+    "Valores podem variar conforme volume de documentos, complexidade e integração de sistemas.",
+    "Inclui acompanhamento remoto e reuniões online.",
+    "Todos os relatórios e controles podem ser entregues em Excel ou Power BI.",
     "Os planos apresentados não incluem a execução de pagamentos de despesas e faturas, serviço que pode ser contratado separadamente conforme a necessidade do cliente.",
     "A contratação dos pacotes é feita por período mínimo de 3 meses, garantindo continuidade, organização e resultados consistentes no controle financeiro do seu negócio."
   ];
@@ -59,7 +94,7 @@ const PlansSlide = () => {
         Finapp BPO Financeiro
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl w-full mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl w-full mb-8">
         {plans.map((plan, index) => (
           <div 
             key={index}
@@ -72,7 +107,8 @@ const PlansSlide = () => {
           >
             <div className="mb-4">
               <h3 className="text-xl font-medium text-slide-text mb-1">{plan.name}</h3>
-              <p className="text-xs text-slide-text-light italic">{plan.idealFor}</p>
+              <p className="text-xs text-slide-text-light italic mb-2">{plan.idealFor}</p>
+              <p className="text-xs text-slide-text-light">{plan.description}</p>
             </div>
 
             <div className="flex-1 space-y-2 mb-4">
@@ -85,10 +121,6 @@ const PlansSlide = () => {
             </div>
 
             <div className="space-y-2 pt-4 border-t border-border/30">
-              <div className="flex items-center gap-2">
-                <FileText className="w-4 h-4 text-slide-text-light" />
-                <span className="text-xs text-slide-text-light">{plan.limit}</span>
-              </div>
               <div className="text-center py-2 px-3 rounded-lg bg-slide-accent/20">
                 <span className="text-sm font-medium text-slide-accent">{plan.price}</span>
               </div>
