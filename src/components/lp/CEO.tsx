@@ -14,7 +14,7 @@ const CEO = () => {
           <div className="flex-shrink-0 animate-scale-in mx-auto md:mx-0">
             <img 
               src={fernandaPhoto} 
-              alt="Fernanda Alfaro - CEO Finapp BPO Financeiro" 
+              alt="Fernanda Alfaro - CEO Finapp AFV (Assistente Financeiro Virtual)" 
               className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover object-top border-4 border-slide-accent/30 shadow-xl"
             />
           </div>
@@ -29,7 +29,7 @@ const CEO = () => {
             </p>
             
             <p className="text-sm md:text-base leading-relaxed">
-              Criei o <span className="text-slide-accent font-medium">Finapp BPO Financeiro</span> para ajudar empresas a terem clareza, organização e segurança nas finanças — sem complicação.
+              Criei o <span className="text-slide-accent font-medium">Finapp AFV (Assistente Financeiro Virtual)</span> para ajudar empresas a terem clareza, organização e segurança nas finanças — sem complicação.
             </p>
           </div>
         </div>

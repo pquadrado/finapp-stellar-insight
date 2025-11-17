@@ -3,7 +3,7 @@ import finappLogo from "@/assets/finapp-logo.png";
 const CoverSlide = () => {
   return (
     <div className="h-full w-full flex flex-col items-center justify-center px-8">
-      <img src={finappLogo} alt="Finapp BPO Financeiro" className="w-full max-w-xs mb-12 animate-scale-in" />
+      <img src={finappLogo} alt="Finapp AFV (Assistente Financeiro Virtual)" className="w-full max-w-xs mb-12 animate-scale-in" />
       <h1 className="text-3xl md:text-4xl text-center text-slide-text font-light max-w-3xl leading-relaxed animate-fade-in mb-6">
         Pare de perder tempo com o financeiro. <br />
         <span className="text-slide-accent font-medium">A Finapp cuida disso para você.</span>

@@ -1,6 +1,6 @@
 import { Building2, CheckCircle2, TrendingUp } from "lucide-react";
 
-const WhatIsBPOSlide = () => {
+const WhatIsAFVSlide = () => {
   const benefits = [
     { icon: Building2, text: "Terceirização completa do setor financeiro" },
     { icon: CheckCircle2, text: "Organização de rotinas e redução de erros" },
@@ -10,7 +10,7 @@ const WhatIsBPOSlide = () => {
   return (
     <div className="h-full w-full flex flex-col items-center justify-center px-8 md:px-16">
       <h1 className="text-4xl md:text-5xl font-light text-slide-text mb-6 text-center">
-        O que é o BPO Financeiro?
+        O que é o AFV (Assistente Financeiro Virtual)?
       </h1>
       
       <p className="text-xl text-slide-text-light text-center max-w-3xl mb-16 leading-relaxed">
@@ -37,4 +37,4 @@ const WhatIsBPOSlide = () => {
   );
 };
 
-export default WhatIsBPOSlide;
+export default WhatIsAFVSlide;
