@@ -83,12 +83,12 @@ const Plans = () => {
   ];
 
   const notes = [
-    "Valores podem variar conforme volume de documentos, complexidade e integração de sistemas (ex: Conta Azul, Nibo etc.)",
-    "Movimentações adicionais (acima do limite mensal) podem ser cobradas à parte: R$ 3,00 por lançamento extra",
-    "Inclui acompanhamento remoto e reuniões online",
-    "Todos os relatórios e controles podem ser entregues em Excel ou Power BI",
-    "Os planos apresentados não incluem a execução de pagamentos de despesas e faturas, serviço que pode ser contratado separadamente conforme a necessidade do cliente.",
-    "A contratação dos pacotes é feita por período mínimo de 3 meses, garantindo continuidade, organização e resultados consistentes no controle financeiro do seu negócio."
+    "Valores podem variar conforme o volume de documentos, a complexidade das operações e as integrações necessárias. O custo do sistema financeiro utilizado (como Conta Azul, Nibo, Omie etc.) é cobrado à parte, diretamente conforme a tabela da plataforma escolhida.",
+    "Movimentações adicionais acima do limite mensal contratado podem ser cobradas separadamente — valor de R$ 3,00 por lançamento extra.",
+    "Acompanhamento remoto e reuniões online incluídos em todos os pacotes.",
+    "Apresentação dos relatórios de resultados, com explicação clara dos números, indicadores e desempenho financeiro.",
+    "Os planos não incluem a execução de pagamentos de contas, faturas ou boletos. Esse serviço pode ser contratado separadamente, caso o cliente deseje.",
+    "Contratação mínima de 3 meses, garantindo continuidade, organização e resultados consistentes no controle financeiro da empresa."
   ];
 
   const scrollToContact = () => {
