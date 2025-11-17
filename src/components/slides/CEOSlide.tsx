@@ -11,7 +11,7 @@ const CEOSlide = () => {
         <div className="flex-shrink-0">
           <img 
             src={fernandaPhoto} 
-            alt="Fernanda Alfaro - CEO Finapp BPO Financeiro" 
+            alt="Fernanda Alfaro - CEO Finapp AFV (Assistente Financeiro Virtual)" 
             className="w-48 h-48 rounded-full object-cover border-4 border-slide-accent/30 shadow-xl animate-scale-in"
           />
         </div>
@@ -26,7 +26,7 @@ const CEOSlide = () => {
           </p>
           
           <p className="text-base leading-relaxed">
-            Após sete anos de experiência internacional na Espanha, trago uma visão ampla e estratégica para apoiar empreendedores e empresas na organização e crescimento de seus negócios por meio da Finapp BPO Financeiro.
+            Após sete anos de experiência internacional na Espanha, trago uma visão ampla e estratégica para apoiar empreendedores e empresas na organização e crescimento de seus negócios por meio da Finapp AFV (Assistente Financeiro Virtual).
           </p>
         </div>
       </div>

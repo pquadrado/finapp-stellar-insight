@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="max-w-5xl mx-auto text-center animate-fade-in">
         <img 
           src={finappLogo} 
-          alt="Finapp BPO Financeiro" 
+          alt="Finapp AFV (Assistente Financeiro Virtual)" 
           className="w-full max-w-[320px] mx-auto mb-12 animate-scale-in"
         />
         

@@ -27,7 +27,7 @@ const Contact = () => {
             💼 Pronto pra ter um financeiro <span className="text-slide-accent font-medium">confiável, seguro e sob controle</span>?
           </h2>
           <p className="text-lg md:text-xl text-slide-text-light max-w-2xl mx-auto">
-            Fale com um especialista e descubra o poder do BPO Financeiro da Finapp.
+            Fale com um especialista e descubra o poder do AFV (Assistente Financeiro Virtual) da Finapp.
           </p>
         </div>
 

@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CoverSlide from "./slides/CoverSlide";
 import ChallengeSlide from "./slides/ChallengeSlide";
-import WhatIsBPOSlide from "./slides/WhatIsBPOSlide";
+import WhatIsAFVSlide from "./slides/WhatIsAFVSlide";
 import ServicesSlide from "./slides/ServicesSlide";
 import BenefitsSlide from "./slides/BenefitsSlide";
 import PlansSlide from "./slides/PlansSlide";
@@ -17,7 +17,7 @@ const Presentation = () => {
   const slides = [
     <CoverSlide key="cover" />,
     <ChallengeSlide key="challenge" />,
-    <WhatIsBPOSlide key="what-is-bpo" />,
+    <WhatIsAFVSlide key="what-is-afv" />,
     <ServicesSlide key="services" />,
     <BenefitsSlide key="benefits" />,
     <PlansSlide key="plans" />,

@@ -91,7 +91,7 @@ const PlansSlide = () => {
         💼 Planos sob medida para o seu negócio
       </h1>
       <p className="text-base text-slide-text-light text-center mb-8">
-        Finapp BPO Financeiro
+        Finapp AFV (Assistente Financeiro Virtual)
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl w-full mb-8">

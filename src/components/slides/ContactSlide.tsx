@@ -11,7 +11,7 @@ const ContactSlide = () => {
     <div className="h-full w-full flex flex-col items-center justify-center px-8 md:px-16">
       <img 
         src={finappLogo} 
-        alt="Finapp BPO Financeiro" 
+        alt="Finapp AFV (Assistente Financeiro Virtual)" 
         className="w-full max-w-[200px] mb-8 animate-scale-in"
       />
 

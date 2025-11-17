@@ -1,6 +1,6 @@
 import { CheckCircle2, BarChart3, FileText, Banknote, TrendingUp, HeadphonesIcon, Settings } from "lucide-react";
 
-const WhatIsBPO = () => {
+const WhatIsAFV = () => {
   const services = [
     { icon: Banknote, text: "Contas a pagar e receber" },
     { icon: BarChart3, text: "Conciliação bancária automática" },
@@ -16,12 +16,12 @@ const WhatIsBPO = () => {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-light text-slide-text mb-8">
-            O que é <span className="text-slide-accent font-medium">BPO Financeiro</span>?
+            O que é <span className="text-slide-accent font-medium">AFV (Assistente Financeiro Virtual)</span>?
           </h2>
           
           <div className="max-w-3xl mx-auto space-y-6">
             <p className="text-lg md:text-xl text-slide-text leading-relaxed">
-              O BPO Financeiro (Business Process Outsourcing) é a <span className="text-slide-accent font-medium">terceirização inteligente</span> das rotinas financeiras da sua empresa.
+              O AFV (Assistente Financeiro Virtual) é a <span className="text-slide-accent font-medium">terceirização inteligente</span> das rotinas financeiras da sua empresa.
             </p>
             
             <p className="text-lg md:text-xl text-slide-text-light leading-relaxed">
@@ -55,4 +55,4 @@ const WhatIsBPO = () => {
   );
 };
 
-export default WhatIsBPO;
+export default WhatIsAFV;
