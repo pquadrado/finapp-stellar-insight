@@ -1,4 +1,4 @@
-import finappLogo from "@/assets/finapp-logo.png";
+import zamarLogo from "@/assets/zamar-logo.jpg";
 import { ArrowRight, Clock, TrendingUp, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -11,8 +11,8 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center px-6 md:px-12 py-20 bg-gradient-to-b from-slide-bg to-background">
       <div className="max-w-5xl mx-auto text-center animate-fade-in">
         <img 
-          src={finappLogo} 
-          alt="Finapp AFV (Assistente Financeiro Virtual)" 
+          src={zamarLogo} 
+          alt="Zamar Consultoria Financeira" 
           className="w-full max-w-[320px] mx-auto mb-12 animate-scale-in"
         />
         

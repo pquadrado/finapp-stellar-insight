@@ -1,5 +1,5 @@
 import { Mail, Phone } from "lucide-react";
-import finappLogo from "@/assets/finapp-logo.png";
+import zamarLogo from "@/assets/zamar-logo.jpg";
 
 const ContactSlide = () => {
   const contacts = [
@@ -10,8 +10,8 @@ const ContactSlide = () => {
   return (
     <div className="h-full w-full flex flex-col items-center justify-center px-8 md:px-16">
       <img 
-        src={finappLogo} 
-        alt="Finapp AFV (Assistente Financeiro Virtual)" 
+        src={zamarLogo} 
+        alt="Zamar Consultoria Financeira" 
         className="w-full max-w-[200px] mb-8 animate-scale-in"
       />
 
