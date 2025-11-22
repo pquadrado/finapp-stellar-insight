@@ -16,7 +16,7 @@ const WhatIsAFVSlide = () => {
       <p className="text-xl text-slide-text-light text-center max-w-3xl mb-16 leading-relaxed">
         É a terceirização estratégica do seu departamento financeiro.
         <br />
-        <span className="text-slide-accent font-medium">A Finapp cuida de tudo</span> para você focar no crescimento do seu negócio.
+        <span className="text-slide-accent font-medium">A Zamar cuida de tudo</span> para você focar no crescimento do seu negócio.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full">

@@ -1,37 +1,37 @@
-import { Wallet, Building2, TrendingUp, FileText, BarChart, DollarSign } from "lucide-react";
+import { CreditCard, ArrowLeftRight, TrendingUp, FileText, BarChart3, DollarSign } from "lucide-react";
 
 const Services = () => {
   const services = [
-    {
-      icon: Wallet,
-      title: "Contas a pagar e a receber",
-      description: "Gestão completa de entradas e saídas"
+    { 
+      icon: CreditCard, 
+      title: "Contas a Pagar e Receber",
+      description: "Organização e controle das entradas e saídas financeiras, garantindo que todas as obrigações sejam cumpridas no prazo e que os recebimentos sejam devidamente acompanhados."
     },
-    {
-      icon: Building2,
-      title: "Conciliação bancária",
-      description: "Tudo conferido, tudo certo"
+    { 
+      icon: ArrowLeftRight, 
+      title: "Conciliação Bancária",
+      description: "Verificação diária dos lançamentos bancários, identificando e classificando cada transação para manter o controle financeiro atualizado e preciso."
     },
-    {
-      icon: TrendingUp,
-      title: "Fluxo de caixa e previsões",
-      description: "Você sabe onde está e para onde vai"
+    { 
+      icon: FileText, 
+      title: "Emissão de Notas Fiscais",
+      description: "Emissão de documentos fiscais conforme a necessidade do cliente, garantindo conformidade com as obrigações tributárias."
     },
-    {
-      icon: FileText,
-      title: "Emissão de notas e boletos",
-      description: "Processos automáticos e sem erro"
+    { 
+      icon: FileText, 
+      title: "Organização de Documentos",
+      description: "Arquivamento digital organizado de comprovantes, notas fiscais e documentos relevantes para facilitar o acesso sempre que necessário."
     },
-    {
-      icon: BarChart,
-      title: "Relatórios e dashboards",
-      description: "Informações claras no Excel ou Power BI"
+    { 
+      icon: BarChart3, 
+      title: "Relatórios Financeiros",
+      description: "Elaboração de relatórios periódicos que mostram de forma clara a situação financeira, auxiliando na análise e tomada de decisões."
     },
-    {
-      icon: DollarSign,
-      title: "Pagamento de contas",
-      description: "Disponível como serviço adicional"
-    }
+    { 
+      icon: TrendingUp, 
+      title: "Controle de Fluxo de Caixa",
+      description: "Projeção e acompanhamento das entradas e saídas financeiras para evitar surpresas e permitir um planejamento adequado."
+    },
   ];
 
   return (
@@ -39,24 +39,21 @@ const Services = () => {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-4xl font-light text-slide-text mb-3">
-            O que a Finapp faz por você
+            💼 Com a Zamar, você conta com:
           </h2>
-          <p className="text-base text-slide-text-light max-w-2xl mx-auto">
-            Cuidamos de toda a rotina financeira da sua empresa
-          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <div 
               key={index}
-              className="p-5 rounded-xl bg-gradient-to-br from-secondary/50 to-secondary/30 backdrop-blur-sm border-[3px] border-border hover:border-slide-accent transition-all duration-300 hover:shadow-xl animate-scale-in group shadow-lg"
-              style={{ animationDelay: `${index * 100}ms` }}
+              className="flex flex-col items-start p-6 rounded-2xl bg-gradient-to-br from-secondary/50 to-secondary/30 backdrop-blur-sm border-[3px] border-border hover:border-slide-accent transition-all duration-300 hover:shadow-lg animate-fade-in shadow-lg"
+              style={{ animationDelay: `${index * 80}ms` }}
             >
-              <div className="w-12 h-12 rounded-full bg-slide-accent/20 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-12 h-12 rounded-xl bg-slide-accent/20 flex items-center justify-center mb-4">
                 <service.icon className="w-6 h-6 text-slide-accent" />
               </div>
-              <h3 className="text-base font-medium text-slide-text mb-2">{service.title}</h3>
+              <h3 className="text-lg font-medium text-slide-text mb-2">{service.title}</h3>
               <p className="text-sm text-slide-text-light">{service.description}</p>
             </div>
           ))}

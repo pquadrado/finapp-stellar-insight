@@ -60,7 +60,7 @@ const Challenge = () => {
           <p className="text-lg md:text-xl text-slide-text-light max-w-2xl mx-auto">
             👉 Se respondeu <span className="text-slide-accent font-medium">"sim"</span> pra alguma delas,
             <br />
-            <span className="text-slide-accent font-medium">a Finapp é pra você.</span>
+            <span className="text-slide-accent font-medium">a Zamar é pra você.</span>
           </p>
         </div>
       </div>

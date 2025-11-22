@@ -3,8 +3,8 @@ import { HelpCircle } from "lucide-react";
 const FAQ = () => {
   const faqs = [
     {
-      question: "O que diferencia a Finapp de uma contabilidade tradicional?",
-      answer: "A contabilidade foca nos registros fiscais e obrigações legais. A Finapp atua antes, organizando o financeiro do dia a dia e entregando dados que ajudam a tomar decisões estratégicas."
+      question: "O que diferencia a Zamar de uma contabilidade tradicional?",
+      answer: "A contabilidade foca nos registros fiscais e obrigações legais. A Zamar atua antes, organizando o financeiro do dia a dia e entregando dados que ajudam a tomar decisões estratégicas."
     },
     {
       question: "É seguro compartilhar informações financeiras?",
@@ -12,7 +12,7 @@ const FAQ = () => {
     },
     {
       question: "Preciso mudar o sistema que uso hoje?",
-      answer: "Não necessariamente. A Finapp se adapta ao seu sistema atual, ou pode ajudar a implantar uma solução mais eficiente e integrada."
+      answer: "Não necessariamente. A Zamar se adapta ao seu sistema atual, ou pode ajudar a implantar uma solução mais eficiente e integrada."
     },
     {
       question: "Como é o processo de implantação?",

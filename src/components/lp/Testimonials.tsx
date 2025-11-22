@@ -3,12 +3,12 @@ import { Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      text: "Com a Finapp, reduzimos 30% do tempo gasto com tarefas financeiras e ganhamos clareza total do caixa.",
+      text: "Com a Zamar, reduzimos 30% do tempo gasto com tarefas financeiras e ganhamos clareza total do caixa.",
       author: "P2 Comunicação",
       role: "CEO"
     },
     {
-      text: "Agora temos previsibilidade e tranquilidade para crescer, não me preocupo mais com as tarefas diárias porque sei que estão em boas mãos — A Finapp fez toda a diferença.",
+      text: "Agora temos previsibilidade e tranquilidade para crescer, não me preocupo mais com as tarefas diárias porque sei que estão em boas mãos — A Zamar fez toda a diferença.",
       author: "Pucci Projetos",
       role: "CEO"
     }
@@ -19,7 +19,7 @@ const Testimonials = () => {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-light text-slide-text mb-4">
-            Resultados reais de quem confia na <span className="text-slide-accent font-medium">Finapp</span>
+            Resultados reais de quem confia na <span className="text-slide-accent font-medium">Zamar</span>
           </h2>
         </div>
 

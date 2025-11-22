@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 160 20% 25%;
 
-    --primary: 160 15% 45%;
-    --primary-foreground: 45 35% 85%;
+    --primary: 160 60% 35%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 160 20% 95%;
     --secondary-foreground: 160 20% 25%;
@@ -26,57 +26,57 @@ All colors MUST be HSL.
     --muted: 160 20% 95%;
     --muted-foreground: 160 15% 40%;
 
-    --accent: 45 35% 70%;
-    --accent-foreground: 160 20% 25%;
+    --accent: 160 60% 35%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 160 20% 75%;
     --input: 160 20% 75%;
-    --ring: 45 35% 70%;
+    --ring: 160 60% 35%;
 
     --radius: 0.75rem;
 
-    --slide-bg: 160 15% 45%;
-    --slide-accent: 45 35% 70%;
-    --slide-text: 45 35% 85%;
-    --slide-text-light: 160 25% 75%;
+    --slide-bg: 0 0% 100%;
+    --slide-accent: 160 60% 35%;
+    --slide-text: 160 20% 25%;
+    --slide-text-light: 160 15% 45%;
   }
 
   .dark {
     --background: 160 20% 10%;
-    --foreground: 45 35% 85%;
+    --foreground: 0 0% 100%;
 
     --card: 160 20% 12%;
-    --card-foreground: 45 35% 85%;
+    --card-foreground: 0 0% 100%;
 
     --popover: 160 20% 10%;
-    --popover-foreground: 45 35% 85%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 45 35% 70%;
-    --primary-foreground: 160 20% 15%;
+    --primary: 160 60% 45%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 160 20% 15%;
-    --secondary-foreground: 45 35% 85%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 160 20% 15%;
     --muted-foreground: 160 15% 60%;
 
-    --accent: 45 35% 70%;
-    --accent-foreground: 160 20% 15%;
+    --accent: 160 60% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62% 30%;
-    --destructive-foreground: 45 35% 85%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 160 20% 25%;
     --input: 160 20% 25%;
-    --ring: 45 35% 70%;
+    --ring: 160 60% 45%;
 
-    --slide-bg: 160 15% 45%;
-    --slide-accent: 45 35% 70%;
-    --slide-text: 45 35% 85%;
-    --slide-text-light: 160 25% 75%;
+    --slide-bg: 160 20% 10%;
+    --slide-accent: 160 60% 45%;
+    --slide-text: 0 0% 100%;
+    --slide-text-light: 160 15% 70%;
   }
 }
 
