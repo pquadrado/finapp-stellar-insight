@@ -44,7 +44,7 @@ const Hero = () => {
         </div>
 
         <p className="text-lg md:text-xl text-slide-text-light mb-10 max-w-3xl mx-auto leading-relaxed">
-          Com a Finapp, toda a operação financeira é cuidada com <span className="text-slide-accent font-medium">eficiência e clareza</span>, permitindo que você tenha tranquilidade, tempo e foco nas estratégias para tomar as melhores decisões.
+          Com a Zamar, toda a operação financeira é cuidada com <span className="text-slide-accent font-medium">eficiência e clareza</span>, permitindo que você tenha tranquilidade, tempo e foco nas estratégias para tomar as melhores decisões.
         </p>
 
         <Button 

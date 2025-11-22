@@ -39,7 +39,7 @@ const Differentials = () => {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-light text-slide-text mb-4">
-            Por que escolher a <span className="text-slide-accent font-medium">Finapp</span>?
+            Por que escolher a <span className="text-slide-accent font-medium">Zamar</span>?
           </h2>
         </div>
 

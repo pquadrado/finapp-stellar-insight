@@ -3,7 +3,7 @@ import zamarLogo from "@/assets/zamar-logo.jpg";
 
 const ContactSlide = () => {
   const contacts = [
-    { icon: Mail, text: "finappbpofinanceiro@gmail.com" },
+    { icon: Mail, text: "zamar@gmail.com" },
     { icon: Phone, text: "(16) 99745-4247" },
   ];
 

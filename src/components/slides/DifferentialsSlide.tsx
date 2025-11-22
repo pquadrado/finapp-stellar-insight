@@ -27,7 +27,7 @@ const DifferentialsSlide = () => {
   return (
     <div className="h-full w-full flex flex-col items-center justify-center px-8 md:px-16">
       <h1 className="text-4xl md:text-5xl font-light text-slide-text mb-4 text-center">
-        Diferenciais da Finapp
+        Diferenciais da Zamar
       </h1>
       
       <p className="text-xl text-slide-text-light text-center mb-16 max-w-2xl">

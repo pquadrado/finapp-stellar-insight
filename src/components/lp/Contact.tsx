@@ -9,8 +9,8 @@ const Contact = () => {
   const contacts = [
     { 
       icon: Mail, 
-      text: "finappbpofinanceiro@gmail.com",
-      link: "mailto:finappbpofinanceiro@gmail.com"
+      text: "zamar@gmail.com",
+      link: "mailto:zamar@gmail.com"
     },
     { 
       icon: Phone, 
@@ -27,7 +27,7 @@ const Contact = () => {
             💼 Pronto pra ter um financeiro <span className="text-slide-accent font-medium">confiável, seguro e sob controle</span>?
           </h2>
           <p className="text-lg md:text-xl text-slide-text-light max-w-2xl mx-auto">
-            Fale com um especialista e descubra o poder do AFV (Assistente Financeiro Virtual) da Finapp.
+            Fale com um especialista e descubra o poder do AFV (Assistente Financeiro Virtual) da Zamar.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
           </a>
           
           <a
-            href="mailto:finappbpofinanceiro@gmail.com"
+            href="mailto:zamar@gmail.com"
             className="flex flex-col items-center p-6 rounded-xl bg-background/50 border-2 border-border hover:border-slide-accent transition-all duration-300 hover:scale-105 cursor-pointer"
           >
             <div className="w-14 h-14 rounded-full bg-slide-accent/20 flex items-center justify-center mb-4">

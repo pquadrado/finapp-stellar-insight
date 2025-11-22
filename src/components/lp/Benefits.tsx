@@ -39,10 +39,10 @@ const Benefits = () => {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-light text-slide-text mb-4">
-            Como a Finapp <span className="text-slide-accent font-medium">transforma seu financeiro</span>
+            Como a Zamar <span className="text-slide-accent font-medium">transforma seu financeiro</span>
           </h2>
           <p className="text-lg text-slide-text-light max-w-3xl mx-auto">
-            A Finapp cuida do que é operacional, pra você focar no que é estratégico.
+            A Zamar cuida do que é operacional, pra você focar no que é estratégico.
           </p>
         </div>
 

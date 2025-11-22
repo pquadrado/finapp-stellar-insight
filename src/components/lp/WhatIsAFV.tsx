@@ -25,14 +25,14 @@ const WhatIsAFV = () => {
             </p>
             
             <p className="text-lg md:text-xl text-slide-text-light leading-relaxed">
-              Na prática, a Finapp cuida de tudo — lançamentos, pagamentos, recebimentos, conciliações, relatórios e muito mais — enquanto você mantém o <span className="text-slide-accent font-medium">controle total e a clareza dos números</span>.
+              Na prática, a Zamar cuida de tudo — lançamentos, pagamentos, recebimentos, conciliações, relatórios e muito mais — enquanto você mantém o <span className="text-slide-accent font-medium">controle total e a clareza dos números</span>.
             </p>
           </div>
         </div>
 
         <div className="bg-gradient-to-br from-secondary/50 to-secondary/30 backdrop-blur-sm rounded-2xl p-8 md:p-10 border-[3px] border-border shadow-xl">
           <h3 className="text-2xl md:text-3xl font-medium text-slide-text mb-8 text-center">
-            💼 Com a Finapp, você conta com:
+            💼 Com a Zamar, você conta com:
           </h3>
           
           <div className="grid md:grid-cols-2 gap-5">

@@ -2,6 +2,7 @@ import Hero from "@/components/lp/Hero";
 import WhatIsAFV from "@/components/lp/WhatIsAFV";
 import Challenge from "@/components/lp/Challenge";
 import Benefits from "@/components/lp/Benefits";
+import Services from "@/components/lp/Services";
 import Testimonials from "@/components/lp/Testimonials";
 import Differentials from "@/components/lp/Differentials";
 import CEO from "@/components/lp/CEO";
@@ -14,6 +15,7 @@ const LandingPage = () => {
     <div className="min-h-screen bg-background">
       <Hero />
       <WhatIsAFV />
+      <Services />
       <Challenge />
       <Benefits />
       <Testimonials />
